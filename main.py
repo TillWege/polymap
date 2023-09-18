@@ -35,4 +35,4 @@ if __name__ == "__main__":
                     nx_graph.add_edge(row[0], row[1], weight=1, title=row[2], color=colors[types.index(row[2])], label=row[2])
     
     
-    nx_graph.show('output.html', notebook=False)
+    nx_graph.show('./docs/index.html', notebook=False)
