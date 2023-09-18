@@ -88,8 +88,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"group": 0, "id": "Vio", "label": "Vio", "shape": "dot", "title": "Vio"}, {"group": 1, "id": "Nina", "label": "Nina", "shape": "dot", "title": "Nina"}, {"group": 2, "id": "Lily", "label": "Lily", "shape": "dot", "title": "Lily"}, {"group": 3, "id": "Marie", "label": "Marie", "shape": "dot", "title": "Marie"}]);
-                  edges = new vis.DataSet([{"color": "#FF0000", "from": "Vio", "label": "Beziehung", "title": "Beziehung", "to": "Nina", "weight": 1}, {"color": "#FF0000", "from": "Lily", "label": "Beziehung", "title": "Beziehung", "to": "Marie", "weight": 1}, {"color": "#00FF00", "from": "Lily", "label": "Sex", "title": "Sex", "to": "Vio", "weight": 1}]);
+                  nodes = new vis.DataSet([{"group": 0, "id": "Vio", "label": "Vio", "shape": "dot", "title": "Vio"}, {"group": 1, "id": "Nina", "label": "Nina", "shape": "dot", "title": "Nina"}, {"group": 2, "id": "Lily", "label": "Lily", "shape": "dot", "title": "Lily"}, {"group": 3, "id": "Marie", "label": "Marie", "shape": "dot", "title": "Marie"}, {"group": 4, "id": "Mara", "label": "Mara", "shape": "dot", "title": "Mara"}, {"group": 5, "id": "Julia", "label": "Julia", "shape": "dot", "title": "Julia"}]);
+                  edges = new vis.DataSet([{"color": "#FF0000", "from": "Vio", "label": "Beziehung", "title": "Beziehung", "to": "Nina", "weight": 1}, {"color": "#FF0000", "from": "Lily", "label": "Beziehung", "title": "Beziehung", "to": "Marie", "weight": 1}, {"color": "#00FF00", "from": "Lily", "label": "Sex", "title": "Sex", "to": "Vio", "weight": 1}, {"color": "#FF0000", "from": "Mara", "label": "Beziehung", "title": "Beziehung", "to": "Julia", "weight": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
